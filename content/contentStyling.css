@@ -11,6 +11,7 @@
     margin: 0.3em;
     max-width: max-content;
     display: inline-block;
+    border-radius: .25em;
 }
 
 

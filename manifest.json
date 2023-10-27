@@ -5,7 +5,10 @@
 	},
 	"content_scripts": [
 		{
-			"matches": ["<all_urls>"],
+			"matches": [
+				"https://answerwrite.com/*",
+				"https://*.answerwrite.com/*"
+			],
 			"js": ["content/content.js"],
 			"css": ["content/contentStyling.css"]
 		}
@@ -21,7 +24,10 @@
 	"name": "AnswerWrite Hacked",
 	"offline_enabled": true,
 	"permissions": ["storage"],
-	"short_name": "Web Extension",
+	"short_name": "AnswerWrite Hacked",
 	"version": "1.0.0",
-	"host_permissions": ["https://answerwrite.com/*"]
+	"host_permissions": [
+		"https://answerwrite.com/*",
+		"https://*.answerwrite.com/*"
+	]
 }

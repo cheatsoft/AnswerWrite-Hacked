@@ -17,6 +17,9 @@ class IframeManager {
 		document.body.appendChild(this.mainBox);
 		window.removeEventListener('contextmenu', null, true);
 		document.body.focus();
+		console.log(document.body.getAttribute('oncontextmenu'));
+
+		console.log(document.oncontextmenu);
 	}
 
 	createButton(text, className) {
