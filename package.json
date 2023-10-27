@@ -1,0 +1,17 @@
+{
+	"name": "browser-extension",
+	"version": "1.0.0",
+	"description": "Browser extension template built with Manifest Version 3.",
+	"scripts": {
+		"dev": "TMPDIR=~/tmp-dir/ web-ext run --config=config.js",
+		"dev:chromium": "web-ext run --config=config.js -t chromium",
+		"dev-no-tmp": "web-ext run",
+		"build": "web-ext build",
+		"lint": "web-ext lint"
+	},
+	"author": "my-name",
+	"license": "MIT",
+	"dependencies": {
+		"web-ext": "^7.6.2"
+	}
+}

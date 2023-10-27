@@ -1,0 +1,35 @@
+.unlock--iButton {
+    background-color: #343a40;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5em;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin: 0.3em;
+    max-width: max-content;
+    display: inline-block;
+}
+
+
+.unlock--iCenter {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    width: 100% !important;
+    margin: auto 0;
+    /* center the child element vertically */
+}
+
+
+.unlock--iFrame {
+    resize: both;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none !important;
+}

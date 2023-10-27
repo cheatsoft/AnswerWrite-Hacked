@@ -1,0 +1,27 @@
+{
+	"author": "CheatSoft",
+	"background": {
+		"service_worker": "background/background.js"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content/content.js"],
+			"css": ["content/contentStyling.css"]
+		}
+	],
+	"description": "Hacked AnswerWrite",
+	"icons": {
+		"16": "images/icon_16.png",
+		"32": "images/icon_32.png",
+		"48": "images/icon_48.png",
+		"128": "images/icon_128.png"
+	},
+	"manifest_version": 3,
+	"name": "AnswerWrite Hacked",
+	"offline_enabled": true,
+	"permissions": ["storage"],
+	"short_name": "Web Extension",
+	"version": "1.0.0",
+	"host_permissions": ["https://answerwrite.com/*"]
+}
