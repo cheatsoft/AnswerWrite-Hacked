@@ -127,3 +127,7 @@ class IframeManager {
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉
 */
 document.onload = new IframeManager();
+
+document.onload = () => {
+	window.onblur = null;
+};
